@@ -1,0 +1,24 @@
+   /* ================= PAINEL ADMIN ================= */
+    #admin-overlay { position: fixed; inset: 0; background: rgba(10, 10, 10, 0.98); z-index: 1000; display: none; overflow-y: auto; }
+    #admin-overlay.ativo { display: block; }
+    .admin-container { max-width: 1000px; margin: 40px auto; padding: 20px; }
+    .login-box { max-width: 400px; margin: 100px auto; background: var(--grafite); padding: 40px; border-radius: 8px; border: 1px solid var(--borda); position: relative; }
+    .btn-fechar { position: absolute; top: 15px; right: 15px; background: none; border: none; color: var(--cinza); font-size: 24px; cursor: pointer; }
+    .btn-fechar:hover { color: var(--branco); }
+    .dash-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 30px; padding-bottom: 20px; border-bottom: 1px solid var(--borda); }
+    .dash-tabs { display: flex; gap: 10px; margin-bottom: 20px; }
+    .tab-btn { padding: 10px 20px; background: var(--grafite); border: 1px solid var(--borda); color: var(--branco); border-radius: 4px; cursor: pointer; }
+    .tab-btn.ativo { background: var(--dourado); color: var(--preto); border-color: var(--dourado); font-weight: bold; }
+    .tab-conteudo { display: none; }
+    .tab-conteudo.ativo { display: block; }
+    .lead-card { background: var(--grafite); border: 1px solid var(--borda); border-radius: 8px; padding: 20px; margin-bottom: 15px; }
+    .lead-header { display: flex; justify-content: space-between; margin-bottom: 10px; }
+    .lead-header h3 { color: var(--dourado); }
+    .lead-info { font-size: 14px; color: var(--cinza); margin-bottom: 15px; line-height: 1.8; }
+    .lead-msg { background: var(--preto); padding: 15px; border-radius: 4px; border-left: 3px solid var(--dourado); font-size: 15px; }
+    .form-projeto { background: var(--grafite); padding: 25px; border-radius: 8px; margin-bottom: 30px; border: 1px solid var(--borda); display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
+    .form-projeto .full { grid-column: 1 / -1; }
+    .proj-admin-card { display: flex; align-items: center; gap: 20px; background: var(--grafite); padding: 15px; border-radius: 8px; margin-bottom: 15px; border: 1px solid var(--borda); }
+    .proj-admin-card img { width: 100px; height: 70px; object-fit: cover; border-radius: 4px; background: var(--preto); }
+    .proj-admin-info { flex: 1; }
+    .proj-admin-botoes { display: flex; gap: 10px; }
